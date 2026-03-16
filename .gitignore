@@ -1,0 +1,31 @@
+# Ignore agent-internal files and local tooling
+AGENTS.md
+SOUL.md
+USER.md
+IDENTITY.md
+TOOLS.md
+HEARTBEAT.md
+BOOTSTRAP.md
+MEMORY.md
+memory/
+.openclaw/
+
+# Credentials / SSH
+.ssh/
+
+# Data + artifacts
+*.h5ad
+data/
+results/
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Smoggy/
+Project-Smoggy/
+
